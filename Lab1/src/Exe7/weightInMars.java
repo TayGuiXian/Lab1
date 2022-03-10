@@ -6,8 +6,7 @@ public class weightInMars {
 	public static double weight;
 	public static double mars_weight;
 	
-	
-	public static void main( String[] args )
+	public static void themain()
 	{
 		System.out.print( "Enter you weight: " );
 		Scanner cin = new Scanner(System.in);  // Create a Scanner object
@@ -15,7 +14,12 @@ public class weightInMars {
 	    mars_weight = weight * 37.83 / 100;
 	    System.out.println("\nYour weight on:");
 	    System.out.println("Earth is " + weight);
-	    System.out.println("Mars is " + mars_weight);
+	    System.out.println("Mars is " + mars_weight +"\n");
+	}
+	
+	public static void main( String[] args )
+	{
+		themain();
 	}
 	
 }
